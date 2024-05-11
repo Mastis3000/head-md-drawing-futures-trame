@@ -1,6 +1,30 @@
 #include <Wire.h>
 #include "Adafruit_TCS34725.h"
 
+const size_t colorCount = 5;
+
+int colorValues[colorCount][4] = { // {hue low, hue high, saturation low, saturation high}
+  {2,35,40,85},     // rouge 
+  {60,74,50,80},    // jaune
+  {120,150,30,75},  // vert
+  {165,195,45,80},  // bleu
+  {315,359,15,70},  // fuchsia
+};
+
+String colorNames[colorCount] = {
+  "rouge",
+  "jaune",
+  "vert",
+  "bleu",
+  "fuchsia",
+};
+
+const String unknown = "unknown";
+
+String currentColor = unknown;
+String lastColor = unknown;
+
+
 /* Initialise with specific int time and gain values */
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 
@@ -12,28 +36,6 @@ float filterValue = 0;
 float filterSum = 0;
 float filterReadings[FILTER_WINDOW_SIZE];
 float filterHue = 0;
-
-const size_t colorCount = 5;
-
-int colorValues[colorCount][4] = { // {hue low, hue high, saturation low, saturation high}
-  {2,35,40,70}, // rouge 
-  {60,74,50,70}, // jaune
-  {120,140,30,50}, // vert
-  {165,195,45,65}, // bleu
-  {335,359,30,45} // fuchsia
-};
-
-String colorNames[colorCount] = {
-  "rouge",
-  "jaune",
-  "vert",
-  "bleu",
-  "fuchsia"
-};
-
-String unknown = "unknown";
-
-String currentColor = unknown;
 
 
 void setup(void) {
@@ -70,10 +72,23 @@ void setColorName(float hue, float saturation) {
   } // for(i)
 
   if (index < 0) {
+    lastColor = currentColor;
     currentColor = unknown;
   } else {
+    lastColor = currentColor;
     currentColor = colorNames[index];
   }
+
+  if (currentColor != lastColor && lastColor != unknown) {
+    printLastColor();
+  }
+
+}
+
+
+void printLastColor() {
+
+Serial.print("color\t"); Serial.print(lastColor); Serial.print("\n");
 
 }
 
@@ -105,12 +120,12 @@ void loop(void) {
 
   setColorName(hue_360, saturation_100);
 
-  Serial.print(filterHue); Serial.print("\t");
-  Serial.print(hue_360); Serial.print("\t");
-  Serial.print(saturation_100, 2); Serial.print("\t");
-  Serial.print(brightness, 2); Serial.print("\t");
-  Serial.print(lux, DEC); Serial.print("\t");
-  Serial.print(currentColor); Serial.print("\t");
+  Serial.print("filterHue="); Serial.print(filterHue); Serial.print("\t");
+  Serial.print("hue_360="); Serial.print(hue_360); Serial.print("\t");
+  Serial.print("saturation="); Serial.print(saturation_100, 2); Serial.print("\t");
+  Serial.print("bright="); Serial.print(brightness, 2); Serial.print("\t");
+  Serial.print("lux="); Serial.print(lux, DEC); Serial.print("\t");
+  Serial.print("current="); Serial.print(currentColor); Serial.print("\t");
   Serial.print("\n");
 
 }
