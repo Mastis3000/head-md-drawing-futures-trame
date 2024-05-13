@@ -1,0 +1,55 @@
+{
+    "title": "Trame Tram Trame",
+    "outro": {
+        "rouge": [
+            "Harmonie a réveillé les nuances du feu, le rouge éclatant des flammes dansant avec intensité. Elle range ses pinceaux et contemple sa toile.",
+            "Harmonie a illuminé les teintes du crépuscule, le rouge orangé du soleil couchant embrasant l'horizon. Elle ferme son carnet à croquis et contemple son dessin, prête à le partager avec sa famille.",
+            "Harmonie a réconforté les reflets de l'automne, le rouge vif des feuilles tourbillonnant dans la brise fraîche. Elle range ses crayons de couleur et contemple son croquis, prête à l'accrocher aux murs.",
+            "Harmonie a réveillé les couleurs de la passion, le rouge profond des roses éclosant dans le jardin. Elle range ses feutres et contemple sa composition, prête à l'accrocher aux murs.",
+            "Harmonie a révélé les ombres de la ville, le rouge sombre des briques des vieux bâtiments se fondant dans le crépuscule. Ravie de son oeuvre, elle l'emporte avec elle."
+        ],
+        "vert": [
+    
+            "Harmonie a réveillé les nuances du vert émeraude, la couleur verte luxuriante des feuilles dansant dans la brise printanière. Ravie de son dessin, elle l'arrache de son rouleau et l'expose aux murs. ",
+            "Harmonie a illuminé les teintes de la prairie, le vert éclatant de l'herbe fraîchement coupée sous le soleil. Ravie de sa toile, elle découpe son dessin et le pend au murs.",
+            "Harmonie a réconforté les reflets de la forêt, le vert profond des frondaisons formant un dôme au-dessus du sentier ombragé. Elle range ses crayons de couleur et contemple son croquis, prête à l'encadrer.",
+            "Harmonie a réveillé les couleurs de la pomme, le vert vif du fruit croquant suspendu aux branches du verger. Elle range ses crayons et contemple son dessin qu'elle suspend au murs.",
+            "Harmonie a ranimé les nuances de l'épinard, la couleur verte profonde des feuilles frisées sur le marché en plein air. Elle range ses crayons de couleur et contemple son croquis, prête à l'ajouter à sa collection de dessin.",
+            "Harmonie a révélé les ombres de la jungle, le vert sombre des lianes serpentant à travers la canopée dense. Elle ferme son carnet de dessin et contemple son croquis, prête à l'incorporer dans sa collection d'illustration.",
+            "Harmonie a réconforté les teintes de la nature, la couleur verte apaisante des plantes d'intérieur embellissant son salon. Elle range ses pinceaux et contemple sa création qu'elle accroche aux murs. ",
+            "Harmonie a ressuscité les nuances des oliviers, le vert sage des fruits mûrs suspendus aux branches torsadées. Elle range ses pinceaux et contemple sa toile qu'elle emporte sous son bras.",
+            "Harmonie a ranimé les nuances de l'avocat, le vert crémeux de la chair du fruit écrasé sur une tartine grillée. Elle range ses crayons de couleur et contemple son croquis, prête à l'ajouter à sa collection de dessins.",
+            "Harmonie a réconforté les teintes du printemps, la couleur verte éclatante des bourgeons éclosant sur les branches des arbres fruitiers. Elle range ses feutre et contemple sa création, prête à l'offrir en cadeau"
+        ],
+        "bleu": [       
+            "Harmonie a restauré les couleurs du monde, le torrent s'appaisant laissant place au murmure des vagues de l'océan. Elle pose ses feutres et s'empare de son oeuvre pour la suspendre aux murs. ",
+            "Harmonie a redonné vie aux nuances du ciel, les nuages se dissipant pour révéler la douce teinte du bleu azur. Elle replie son pinceau et contemple son tableau, prêt à l'exposer dans la galerie",
+            "Harmonie a ravivé les reflets du lac, les ondes calmes révélant la profondeur du bleu turquoise. Elle range ses crayons et contemple son croquis, prête à le partager avec le monde.",
+            "Harmonie a réveillé les teintes de l'aurore, le bleu indigo du crépuscule s'éclaircissant lentement. Elle dépose ses outils et admire sa capture, prête à l'encadrer dans sa collection.",
+            "Harmonie a illuminé les traits de la ville endormie, le bleu électrique des enseignes scintillant dans la nuit. Elle referme son carnet de croquis et observe son dessin, prête à le présenter lors de son exposition.",
+            "Harmonie a révélé les teintes du cristal, le bleu profond des glaciers brisant la lumière du soleil. Elle range ses outils et s'empare de son dessin.",
+            "Harmonie a ravivé les éclats de la ville, le bleu électrique des néons se reflétant sur les trottoirs mouillés par la pluie. Elle plie son chevalet et contemple son tableau, l'emportant sous son bras."
+        ],
+        "jaune": [
+            "Harmonie a réveillé les nuances du soleil, le jaune éclatant des rayons perçant à travers les nuages. Elle range ses pinceaux et contemple sa toile, prête à l'exposer sur un mur.",
+            "Harmonie a réveillé les couleurs de la nature, le jaune pâle des fleurs sauvages éclosant dans les prés. Satisfaite de l'oeuvre qu'elle vient de faire, elle s'en empare et repart avec.",
+            "Harmonie a ranimé les nuances du désert, le jaune ocre du sable s'étendant à perte de vue. Satisfaite d'avoir raviver la joie dans le monde. Elle range ses feutre et s'empare du dessin qu'elle expose joyeusement.",
+            "Harmonie a révélé les ombres de la ville, le jaune pâle des lumières de la rue se reflétant sur les pavés mouillés. Elle ferme son carnet de dessin et contemple son croquis, fière de son illustration, elle l'expose aux murs.",
+            "Harmonie a réconforté les teintes du bonheur, le jaune radieux des sourires illuminant le visage de ses amis. Ravie d'avoir réparé sa bétise, elle s'empare de son dessin et le pend au murs.",
+            "Harmonie a révélé les teintes du tournesol, le jaune éblouissant des pétales tournant vers le soleil. Elle range ses pinceaux et contemple sa toile, prête à l'exposer au murs.",
+            "Harmonie a réconforté les reflets du maïs, le jaune doré des épis ondulant dans le vent d'été. Ravie de ses habiles coups de crayons, elle s'empare de son oeuvre et la pend au murs.",
+            "Harmonie a ravivé les éclats du citron, le jaune lumineux du fruit tranchant dans l'air frais. Elle plie son chevalet et contemple son tableau, arrache la feuille et repart avec sous le bras."
+
+        ],
+        "fuchsia": [
+            "Harmonie a réconforté les reflets de la rose, la couleur rose pâle des pétales caressés par la brise printanière. Elle range ses crayons de couleur et contemple son croquis, prête à l'accrocher dans sa chambre.",
+            "Harmonie a révélé les ombres du crépuscule, le rose délicat des nuages se teintant de la lueur du soir dans le ciel. Elle ferme son carnet de dessin et contemple son croquis, prête à l'incorporer dans sa collection d'illustration qu'elle suspend aux murs.",
+            "Harmonie a ressuscité les nuances de la rhubarbe, le rose vif des tiges croquantes émergeant du sol fertile de son potager. Elle range ses pinceaux et contemple sa toile, prête à l'exposer dans sa chambre.",
+            "Harmonie a éclairé les teintes de la betterave, le rose profond de la chair sucrée du légume coupé en tranches fines dans sa salade estivale. Elle range ses feutres de couleurs et contemple son oeuvre qu'elle suspend aux murs.",
+            "Harmonie a enveloppé les reflets de l'oignon, le rose pâle des anneaux délicats de l'oignon rouge tranché avec précision sur la planche à découper. Elle range ses crayons de couleur et contemple son croquis, prête à l'accrocher aux murs.",
+            "Harmonie a ranimé les éclats de la framboise, le rose éclatant des baies juteuses étalées sur la tarte fraîchement cuite. Elle plie son chevalet et contemple son tableau, prête à le présenter.",
+            "Harmonie a ranimé les éclats du rubis, la couleur fuchsia profonde des cristaux étincelants de la parure qu'elle portait pour une soirée spéciale. Ravie de son illustration, elle l'emporte sous le bras pour l'afficher aux murs. "
+
+        ]
+    }
+}
