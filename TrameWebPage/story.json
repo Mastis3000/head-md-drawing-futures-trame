@@ -1,28 +1,346 @@
 {
     "title": "Trame Tram Trame",
-    "actions": {
+    "init": "Prenez un feutre pour démarrer l'histoire",
+    "start": {
+        "rouge": ["Harmonie commence avec un nouveau feutre rouge"],
+        "vert": ["Harmonie démarre son histoire avec un feutre tout neuf"],
+        "bleu": ["Harmonie prend un feutre bleu pour démarrer son histoire"],
+        "jaune": ["Harmonie saisi le feutre jaune pour commencer un nouveau dessin"],
+        "fuchsia": ["Harmonie prend la couleur magenta pour démarrer son nouveau dessin"]
+    },
+    "intro": {
         "rouge": [
-            "Et Harmonie saisit les graines d'une pomme pour faire repousser toutes les arbres.",
-            "Et Harmonie mange une tomate pour se rappeler de la douceur de la vie.",
-            "Et Harmonie se couvre avec son manteau rouge pour se protéger du froid. Tous les animaux grisâtres la regarde: 'Quelle couleur éclatante!'"
+            "Harmonie a volé l'arc-en-ciel qui colore le monde. En voyant les coquelicots perdre leurs éclat, elle se rend compte de sa bétise et part à la montagne la réparer.",
+            "Harmonie, avide de couleurs, vole la marmite de l'arc-en-ciel et fait fâner toutes les roses du monde. Elle décide alors de prendre de la hauteur en montagne afin d'analyser ce qui cloche.",
+            "Harmonie a eut les yeux plus gros que le ventre en volant la marmite magique des lutins. Le coucher de soleil ne rayonne plus. Elle décide de gravir la montagne en esperant le retrouver.",
+            "Harmonie a volé l'arc-en-ciel qui colore le monde. En voyant les rubis perdre leurs éclat, elle se rend compte de sa bétise et part à la montagne la réparer.",
+            "Harmonie en subtilisant le trésor des lutins, dépourvu les jardins de leurs délicieuses tomates. Elle fuit dans la montagne, couverte de honte suite à son acte égoïste.",
+            "Harmonie, avide de couleurs, vole la marmite de l'arc-en-ciel. Les fraises se retrouvent dépourvues de leurs couleurs et de leurs goût. Elle part en quête d'une solution dans la montagne dans laquelle se trouvent ces baies sauvages.",
+            "Dans la montagne, les baies de sureau semblent moins lumineuses, privées de la magie de l'arc-en-ciel contenu dans le chaudron dérobé par Harmonie. Elle entreprend un périple au sommet des monts afin de réparer ses bétises.",
+            "L'absence de l'arc-en-ciel qu'a volé Harmonie a diminué la vivacité des piments rouges rendant les chili con carne fades. Harmonie se dirige vers la montagne pour aller chercher une solution auprès du vieu sage piment.",
+            "Harmonie a volé le chaudron de l'arc-en-ciel, laissant les camélias rouges se flétrir. Elle grimpe désormais vers la montagne, espérant réparer son erreur.",
+            "Les framboises semblent moins appétissantes depuis que Harmonie a volé l'arc-en-ciel. Elle escalade la montagne, cherchant à restaurer leur éclat."
         ],
         "vert": [
-            "Et Harmonie se couche dans l'herbe pour se reposer.",
-            "Et Harmonie se promène dans la forêt pour se ressourcer.",
-            "Et Harmonie plante une salade nourir les animaux des alentours."
+            "Harmonie a voulu attraper un arc-en-ciel. C'est pourquoi les trèfles se fânent. Elle part en quête d'une solution en s'aventurant dans la montagne.",
+            "Harmonie en subtilisant le trésor des lutins, dépourvu les champs de leurs éclats. Elle fuit dans la montagne, couverte de honte suite à son acte égoïste. ",
+            "Harmonie a cueilli l'arc-en-ciel des lutins, plongeant ainsi le monde dans l'ombre et sans verdure. Elle décida de partir en montagne en quête d'une solution.",
+            "Harmonie a cueilli l'arc-en-ciel des lutins. Le marais se ternissant fait fuir toutes les gernouilles. Elle décide alors de partir en montagne en quête d'une solution.",
+            "Harmonie, avide de couleurs, vole la marmite de l'arc-en-ciel ce qui a comme conséquence de faire flétrir toutes les plantes environnantes. Elle décide alors de prendre de la hauteur en montagne afin d'analyser ce qui cloche.",
+       
+            "Harmonie a cueilli l'arc-en-ciel des lutins, faisant ainsi fâner tout les arbres. Elle décida de partir en montagne leurs parler en quête d'une solution.",
+            "Harmonie en volant l'arc-en-ciel se rend compte que les émeraudes, la monnaie du village, ont perdu leurs éclats et donc leurs valeur. Elle part en quête d'une solution dans les grottes de la montagne dans lesquelles ont les mines.",
+            "En volant l'arc-en-ciel, Harmonie fait perdre leur vert aux bonbons à la menthe. Elle part alors en quête d'une solution dans les montagnes là où la plante pousse.",
+            "Harmonie, en cueillant l'arc-en-ciel, ne se rend pas compte que les feuilles des arbres perdent leur éclat vert. Elle décide alors de gravir la montagne pour trouver une solution.",
+            "Après avoir subtilisé l'arc-en-ciel, Harmonie voit les pommes vertes flétrir sur les arbres. Elle entreprend alors une ascension vers les sommets pour aller parler au vieux pommier du village en espérant trouver une solution."
+
+
         ],
         "bleu": [
-            "Et Harmonie regarde la rivière boueuse. Elle se met à pleurer. 'Oh la rivière est si sale!' Elle saute d'un bond dans l'eau pour la nettoyer. Ah, tout bleu. C'est mieux.",
-            "Et Harmonie regarde le ciel caché par les nuages. Elle souffle très fort pour les faire partir. 'Oh le ciel est si bleu!' crient tous les animaux."
+            "Harmonie ne pensait pas ternir l'éclat des océans en subtilisant l'arc-en-ciel. Elle décide de trouver une solution afin de leurs rendre leurs éclat en partant dans la montagne.",
+            "Harmonie a volé le précieux trésor des lutins. Soudain, les cieux se couvrent se trouvant dépourvu de leur éclat. Harmonie décide alors de prendre de la hauteur dans les monts afin d'observer le problème de plus près.",
+            "Harmonie, avide de couleurs, vole la marmite de l'arc-en-ciel ce qui a comme conséquence de faire fâner les bleuets. Elle décide alors de prendre de la hauteur en montagne afin d'analyser ce qui cloche.",
+            "Harmonie en volant l'arc-en-ciel, a déverser un nuage de ténèbres, rendant les monts gris. Elle part en quête d'une solution afin de leurs rendre sa belle couleur bleue",
+            "Harmonie, avide de couleurs, subtilise l'arc-en-ciel et fait flétrir les myosotis. Comprenant son erreur, elle s'élance vers les sommets enneigés, déterminée à réparer les dommages causés.",
+            "Le vol de l'éclat des couleurs du monde fait fondre les glaciers. Harmonie se lance dans une quête pour restaurer leur teinte bleutée dans les montagne.",
+            "En subtilisant l'arc-en-ciel, Harmonie ne se rend pas compte qu'elle terni le bleu de méthylène des lumières des néons. Elle décide alors de grimper dans les montagnes pour demander aux lucioles comment faire pour réstaurer leur éclat.",
+            "Après avoir volé l'arc-en-ciel, Harmonie voit les ailes iridescentes d'un papillon bleu perdre leur éclat. Elle entreprend alors une ascension vers les sommets pour aller sauver les colonies d'insectes.",
+            "Le vol de l'éclat des couleurs du monde fait perdre leur pigment outremer aux uniformes des gardes-côtes. Harmonie s'engage alors dans une ascension périlleuse à travers les sommets pour trouver une réponse.",
+            "Harmonie réalise que même les baies de sureau bleu ont perdu leur éclat après avoir dérobé l'arc-en-ciel. Elle escalade alors les montagnes, cherchant désespérément une solution pour restaurer leur couleur.",
+            "Harmonie réalise que même les plumes d'un phénix bleu ont perdu leur éclat après avoir dérobé l'arc-en-ciel. Elle escalade alors les montagnes, cherchant désespérément une solution pour restaurer leur couleur.",
+            "Le vol de l'éclat des couleurs du monde fait perdre leur éclat aux cristaux de glace enchantés. Harmonie s'engage alors dans une ascension périlleuse à travers les sommets pour trouver une réponse."
+
         ],
         "jaune": [
-            "Un ciel gris, le soleil est caché. Harmonie se met à danser pour faire revenir le soleil. 'Oh le soleil est si jaune!'",
-            "Et Harmonie se met à chanter pour faire pousser les jacinthes. 'Oh ces jolies fleurs sont si jaunes!'",
-            "Et Harmonie se met à rire pour faire rire les animaux. 'Mais regardez comment vos rires sont jaunes!'"
+            "Harmonie en volant l'arc-en-ciel, a déverser un nuage de ténèbres, cachant les rayons du soleil. Elle part en quête d'une solution dans les monts gris.",
+            "Harmonie a voulu attraper l'arc-en-ciel. Une pluie torrentielle s'abatit alors sur le monde, innondant les maisons éteignant tout les chandelier qui réchauffaient le coeur des gens.",
+            "Harmonie a volé l'éclat des couleurs du monde, les cerises ne poussant plus. Effrayée de ne plus pouvoir en faire de la confiture avec sa grand-maman elle part en quête d'une solution dans la montagne. ",
+            "Harmonie en volant l'arc-en-ciel se rend compte que l'or', la monnaie du village, a perdu  son éclat. Elle part en quête d'une solution dans les grottes de la montagne dans lesquelles ont les mine.",
+            "Dans la lumière jaune du soleil, les citrons semblent pâlir depuis que Harmonie a volé l'arc-en-ciel, leur éclatant jaune devenant terne comme s'ils pleuraient la disparition des couleurs. Honteuse de cet acte égoïste, elle part se réfugier dans la forêt.",
+            "Les abeilles qui polénisent les fleurs, semblent désorientées depuis que Harmonie a volé l'arc-en-ciel, leur monde dépourvu de la diversité de teintes qui le rendait si vibrant. Harmonie part à la montagne à la recherche de solution.",
+            "Sur les étals, les bananes semblent moins appétissantes depuis que Harmonie a volé l'arc-en-ciel, leur jaune mat évoquant une tristesse que seul le retour des couleurs peut dissiper. Elle décide d'aller les réstaurer dans la montagne.",
+            "L'éclat des champs d'épis de maïs sont terni depuis que Harmonie a volé l'arc-en-ciel. Elle escalade maintenant la montagne, cherchant à retrouver les pigments égarés.",
+            "Harmonie ayant volé l'arc-en-ciel des lutins, Les cristaux de miel perdent de leur douceur. Elle entreprend maintenant l'ascension de la montagne pour aller prendre soin des abeilles.",
+            "Harmonie en volant l'arc-en-ciel, ne pensait pas que les marguerites perderaient leur pigments. Elle entamma une ascension du monts pour aller les réstaurer dans leur milieu sauvage.",
+            "Harmonie, avide de couleurs, vole la marmite de l'arc-en-ciel et fait fâner toutes les bourgeons d'or. Elle décide alors de prendre de la hauteur en montagne afin d'analyser ce qui cloche. "
+
         ],
         "fuchsia": [
-            "Regarde comment les fleurs sont toutes grises. Harmonie sort son pinceau magenta pour les colorer. 'Oh ces coquelourdes sont si belles!'"
+            "Harmonie a volé l'arc-en-ciel du monde. Les pivoines se fanant, elle gravit la montagne afin de se cacher tant elle a honte d'avoir saccagé le jardin floral de son village.",
+            "Harmonie ne pensait pas qu'en cueillant l'arc-en-ciel des lutins, elle rendrait les cochons gris. Elle décida de partir en montagne tant elle avait honte.",
+            "Harmonie en volant l'arc-en-ciel, ne pensait pas que les flamants roses perdraient leur couleur. Il migrèrent vers la montagne, cherchant à s'excuser, elle les poursuivit.",
+            "Harmonie en subtilisant le trésor des lutins, a dépourvu les lapins fuchsia de leurs couleur. Effrayés ils fuient dans tout les sens. Elle cherche à en rattraper certains qui se dirigent dans la montagne.",
+            "Harmonie a eut les yeux plus gros que le ventre en volant la marmite magique des lutins. Le coucher de soleil ne rayonne plus. Elle décide de gravir la montagne en esperant le retrouver.",
+            "Harmonie, avide de couleurs, vole la marmite de l'arc-en-ciel et fait fâner toutes les fleurs du monde. Elle décide alors de prendre de la hauteur en montagne afin d'analyser ce qui cloche. ",
+            "Lorsqu'Harmonie s'empare de l'arc-en-ciel, les roses perdent leur éclat fuchsia, laissant le jardin plongé dans une tristesse florale. Elle s'engage alors dans une ascension vers la montagne pour retrouver la source du problème.",
+            "Les fleurs, dépouillés de leurs couleurs vibrantes par le vol de l'arc-en-ciel d'Harmonie, semblent fanés et ternes. Dans un acte de rédemption, elle entreprend un voyage vers la montagne pour découvrir l'origine de ce désastre chromatique.",
+            "Les orchidées, habituellement éblouissantes de leur teinte fuchsia, se fanent tristement après le vol de l'arc-en-ciel par Harmonie. Elle se sentant responsable, se lance dans une expédition vers la montagne pour restaurer leur éclat perdu.",
+            "Les bonbons à la framboise, autrefois chatoyants de leur teinte fuchsia, perdent leur éclat sucré suite au vol de l'arc-en-ciel par Harmonie. En quête de rédemption, elle se dirige vers les hauteurs de la montagne pour résoudre ce mystère coloré.",
+            "Les tulipes, autrefois chatoyantes, perdent leur éclat suite au vol de l'arc-en-ciel par Harmonie. En quête de rédemption, elle se dirige vers les hauteurs de la montagne pour résoudre ce mystère coloré."
+
+        ]
+    },
+
+    "montagne": {
+        "rouge": [
+            "Harmonie tombe dans une petite crevasse et se retrouve dans une mine de rubis. Ils sont blanc, elle décide de les peindre en rouge.",
+            "Harmonie est triste. L'automne arrive et les arbres vont bientôt perdre leur belles feuilles.",
+            "Harmonie part à la recherche des lutins aux bottes rouges qui se cachent dans la montagne.",
+            "harmonie entre dans une grotte et trouve une famille de taupe toute triste. Elle allume un grand feu pour leur réchauffer le coeur.",
+            "Harmonie tombe sur des baies des bois. C'est étrange d'en trouver à cet endroit de la montagne.",
+            "harmonie a faim. Elle se réfugie dans une grotte pour manger son sandwitch à la confiture de fraise.",
+            "Dans la grotte, Harmonie découvre des peintures sur les murs. Les civilisations passées étaient déjà émerveillées par les couleurs.",
+            "Harmonie aide un écureuil très triste en repeignant son coeur en rouge.",
+            "Harmonie s'arrête de marcher et boit une grande gorgée de jus de tomate pour se redonner de l'énergie.",
+            "Harmonie entend quelqu'un pleurer. Un montagnard, les larmes aux yeux, lui demande si elle peut lui rendre la couleur rouge de sa chemise.",
+            "En cherchant les rubis qu'elle a trouvé dans la grotte, Harmonie décide d'en faire un joli collier pour sa maman."
+            
+        ],
+        "vert": [
+            "Harmonie sse dirige vers de bruits de coassements et atterit dans un marécage pleins de grenouilles qui sautent de nénuphar en nénuphar.",
+            "Harmonie s'introduit dans un grotte et les faibles faisseaux lumineux qui filtrent la pénombre font vibrer les couleurs des émeraudes.",
+            "Harmonie est happée par la douce odeur que dégagent les menthes sauvages. Elle les laves soigneusement et les machouilles.",
+            "Harmonie s'étend sous un grand sapin pour se ressourcer.",
+            "Harmonie suit les lézard le long du mur jusqu'à attérir dans leur maison.",
+            "Harmonie tombe nez à nez avec un dinosaure. Elle reste immobile et retient sa respiration.",
+            "Harmonie croit voir un goblin qui vient de filer à toute vitesse en s'engouffrant dans le trou d'une souche d'arbre.",
+            "Harmonie se réveille d'une sièste et aperçoit qu'il lui manque son coussin. Sûrement un coup des lutins.",
+            "Harmonie se fait piquer par une méchante ortie. Elle la peint en vert. Elle devient alors plus gentille.",
+            "En quittant la grotte, Harmonie voit un lit de mousse. Qu'il a l'air confortable!",
+            "Harmonie trébuche sur une truc tout dur. C'est la chaussure abandonnée d'un petit lutin malicieux."
+        ],
+        "bleu": [
+            "Après avoir grimpé une petite colline, Harmonie trouve une fleur bleue étrange: le myosotis. Elle le ceuille en souvenir de son périple.",
+            "Harmonie arrive au sommet d'une montagne enneigée. Elle pille la glace afin d'en faire des glaçons pour les mettre dans sa boisson",
+            "Harmonie en redescendant de la montagne tombe sur un mamouth pris dans la glace. Elle veut le peindre en bleu pour le libérer.",
+            "Dans un monde où il n'y a plus de saphirs pour la couronne de la reine. Harmonie part à leur recherche pour rétablir l'ordre.",
+            "Et Harmonie regarde la neige grise à cause de la pollution. 'Oh la neige est si sale!' Elle se met à la frotter pour la nettoyer. Ah, tout bleu. C'est mieux.",
+            "Harmonie suit de grosses empreintes dans la neige. En les suivant elle découvre le légendaire Yéti.",
+            "Harmonie fabrique une bague de saphires bleus pour sa maman.",
+            "Harmonie trouve un étang gris et froid. En angeant dedans, elle lui redonne sa couleur bleu et celui-ci devient chaud.",
+            "Harmonie voit un bonhomme de neige en larmes. Elle le trempe dans son pot de peinture et celui-ci se met à rire.",
+            "Le ciel bleu devient gris. Harmonie part se réfugier dans une grotte pour se protéger de l'orage."
+        ],
+        "jaune": [
+            "Le ciel est gris, le soleil se cache. Harmonie se met à danser pour faire revenir le soleil. 'Oh le soleil est si jaune!'",
+            "Et Harmonie se met à chanter pour faire danser les oiseaux gris. 'Oh ces oiseaux sont devenus jaunes!'",
+            "La reine a perdu sa couronne. Harmonie peint des cailloux en jaune pour en faire de l'or et fabriquer une nouvelle couronne",
+            "Harmonie découvre un bijou terni dans une grotte et décide de le nettoyer. Avec détermination réussit à lui donner son éclat d'antan.",
+            "Dans l'obscurité, Harmonie allume une torche, faisant danser ses flammes vacillantes dans les ombres ancestrales.",
+            "Et Harmonie se met à chanter pour faire pousser les jacinthes. 'Oh ces jolies fleurs sont si jaunes!'",
+            "Harmonie prépare une brioche dorée, ajoutant une touche de confiture de citrouille pour la douceur.",
+            "Harmonie se couche dans l'herbe pour voir les étoiles. Elles sont grises. Elle fait une prière pour leur redonner leur couleur.",
+            "Harmonie est triste par la couleur de la boisson dans sa gourde. Elle presse une orange pour la colorer.",
+            "Harmonie trouve enfin la marmitte des lutins. Celle-ci est vide, un voleur a pris l'or qui s'y trouvait.",
+            "Une taupe est triste car elle est tombée dans la boue. Harmonie la plonge dans son pot de peinture jaune. La taupe ri aux éclats."
+        ],
+        "fuchsia": [
+            "Regarde comme les lucioles sont toutes grises. Harmonie sort son pinceau fuchsia pour les colorer. 'Oh elles sont si belles!'",
+            "Un dragon est fâché car on lui a volé son trésor. Harmonie lui donne une améthyste pour l'adoucir.",
+            "Mais où est passée la couleur du coucher de soleil. Harmonie fouille dans ses poches et lui la redonne.",
+            "Harmonie est subjuguée par un événement rare. Une aurore boréale redonnant de la vie au ciel grisâtre.",
+            "Un oiseau se plaint de son plumage tout triste. Harmonie lui donne une cerise et celui-ci devient fuchsia.",
+            "Harmonie trouve un arbre à fruits. Tentée d'en manger, elle se souvient de sa grand-mère lui interdisant d'y goûter.",
+            "Harmonie désire contempler le coucher de soleil. Elle se met à danser et chanter pour l'appeler.",
+            "Harmonie offre un bouquet de rose à une maman lézard attristée par le goût fade de la vie.",
+            "Harmonie découvre une statue gris pierre, elle lui fait un bisous pour lui redonner une belle couleur fuchsia.",
+            "Cachée dans une grotte pour fuire la pluie, Harmonie fait un feu et les flammes vives font danser les lucioles.",
+            "Harmonie rencontre un écureuil triste car il est aveugle. Elle lui fait un gros câlin et ses yeux gris deviennent fuchsia."
         ]
         
+    },
+
+    "plaine": {
+        "rouge": [
+            "Harmonie affamée, écrase une grappe de tomates et les enfonce dans la bouche. 'Ah, que c'est délicieux, tu veux goûter?' dit-elle à son ami.",
+            "Harmonie saisit un panier d'osier et le remplit de fraises sauvages. La petite chanceuse se fera un bon goûter.",
+            "Harmonie pense fort à sa maman et cueille de magnifiques roses afin de lui concevoir un bouquet.",
+            "Harmonie croise un fermier qui lui fait découvrir son métier. Elle continue son chemin avec un poivron qu'il lui a offert.",
+            "Harmonie joue à cache-cache avec son ami renard, en le cherchant, elle se retrouve au milieu d'un énorme champ de coquelicot",
+            "Harmonie rêve de manger des bonbons. Elle fait un voeux et se retrouve dans un champs de sucre d'orge.",
+            "Harmonie voit un rouge-gorge tout gris. Elle l'attrappe par la queue et le trempe dans du rouge.",
+            "Harmonie aide un écureuil très triste en repeignant son coeur en rouge.",
+            "Harmonie se est dans un champ de fleurs fanées. Elle croque un bout de son sandwitch et toutes les fleurs deviennent rouges.",
+            "Le paysage est dévêtu. Harmonie souffle sur son dessin et tout devient rougeâtre.",
+            "Les renards pleurent. Harmonie partage avec eux la confiture de sa grand-mère. Les renards sont fous de joie."
+            
+        ],
+        "vert": [
+            "Harmonie Romp une gousse de petit pois qui perlent sur le sol sur lesquels elle glisse.",
+            "Harmonie ouvre un artichaut et y découvre un vrai coeur.",
+            "Harmonie cherche des trèfles à quatre dans l'herbe.",
+            "Harmonie cueille dans un potager des concombre et les mets dans des pots vinaigrés afin d'en faire des cornichons.",
+            "À côté du champ de poivrons du vieux fermier, il y a un champ de poireau, Harmonie en prend quelques uns pour sa maman.",
+            "Harmonie cherche des trèfles à quatre dans l'herbe.",
+            "Harmonie voit une très grande tour. Elle décide de s'en rapprocher.Elle découvre que c'est un haricot géant.",
+            "Les courgettes poussent molles et sans saveur. Harmonie décide de redonner vie aux courgettes. En les arrosant elles reprennent leur couleur",
+            "Assoiffée, Harmonie romps une pastèque en deux et y extrait tout le jus tendre et sucré qu'elle contiennent.",
+            "Harmonie court dans le pré aux milles lögumes verdoyants. Face au vent, 'air est frais.",
+            "Le fermier est fâché car ses légumes ne sont plus verts. Harmonie tient la solution au bout de son pinceau."
+        ],
+        "bleu": [
+            "Harmonie voit une grosse boule dans le ciel. Un vieux monsieur fumant la pipe lui dit que c'est une mongolfière.",
+            "Une grosse tornade approche. Harmonie brandit son pinceau tel une épée et terraça la tornade. Le ciel est redevenu bleu.",
+            "Harmonie trébuche sur un gros légume. Cette aubergine se met à pleurer car il a perdu sa magnifique couleu.",
+            "Harmonie croise son ami l'ours, il lui fait découvrir de petites baies de couleur bleu profond. Harmonie n'arrive plus s'arrêter.",
+            "Maman renarde a perdu l'éclat de ses yeux. Elle demande à Harmonie si elle peut le lui rendre. Harmonie sort un crayon de sa poche.",
+            "Harmonie s'assied dans l'herbe et dépaint la silhouette de la montagne à l'encre de chine bleue.",
+            "Harmonie tombe d'un talus qu'elle n'a pas vu et se relève des bleus partout sur les bras.",
+            "Un bruit strident sonne en permanence. Harmonie part à sa recherche et tombe sur une colonie de grillons.",
+            "Au milieu de la plaine, Harmonie trouve un petit étang. Les libellules virevoltent autour des roseaux.",
+            "En se délectant de myrtilles, Harmonie salit son pull en laine que sa grand-mère lui a tricoté."
+        ],
+        "jaune": [
+            "Les poussins ne grandissent plus faute de nourriture. Harmonie leur donne un croissant qu'elle sort de sa poche.",
+            "Harmonie observe des tournesols tristes, ne regardant plus le ciel car le soleil a disparu. Harmonie souffle sur les nuages et le soleil revient.",
+            "Harmonie cueille des maïs pour en faire du popcorn et redonner la joie dans ce monde si gris.",
+            "Harmonie observe des marguerites fanées. Elle appelle ses amies abeilles pour leur venir en aide.",
+            "Harmonie découvre dans un champs des tulipes fatiguées. Elle leur chante une chanson pour leur rendre leur couleur étincelante",
+            "Dans le champ obscur, Harmonie allume un feu d'artifice, illuminant le ciel d'éclats jaune vif.",
+            "Harmonie plante des jonquilles dans un champs pour faire sourir les coccinelles.",
+            "Harmonie arpente des champs de blé grisâtre. Un coup de pinceau les transforme les grains en un pain nourrissant et réconfortant.",
+            "Les nuages envahissent le ciel. Harmonie se met à danser si fort que le souffle de ses mouvements les font fuir.",
+            "Harmonie trouve une pièce d'or par terre. En la donnant à un lutin, une partie du champs redevint coloré.",
+            "Harmonie voit un groupe de papillon. Elle leur lance des pigments jaunes pour qu'ils en fassent une fabuleuse danse."
+        ],
+        "fuchsia": [
+            "Les pucerons attaquent les plantes. Harmonie disperce de la lavande pour les faire fuir.",
+            "Les violettes exhalent leur parfum délicat. Harmonie, séduite par leur fragrance, les cueille avec tendresse.",
+            "Des orchidées fragiles sont menacées par le vent. Harmonie les soutient avec douceur, préservant leur beauté délicate.",
+            "Les iris sont fanées. Harmonie les tailles et les arrose pour qu'elles retrouvent leur éclat.",
+            "Harmonie cueille des figues toutes pâles. En y ajoutant un peu de sucre pour en faire une confiture, elles retrouvent leur splendeur.",
+            "Harmonie rencontre un vigneron lui racontant qu'en cueillant le plus beau raisin, il redonne le sourir aux gens malheureux.",
+            "Plongée dans les souvenirs, Harmonie désire cueillir des rhubarbe pour en faire une tarte comme celle de sa maman.",
+            "Un fermier montre à harmonie comment choisir les plus beau oignon pour tirer les larmes aux homme les plus rigides.",
+            "Harmonie croise son ami lapin lui racontant qu'il s'est tranformer en rose en mangeant une betterave.",
+            "À la tombée de la nuit, une lueur brille au loin. C'est une colonie de lucioles qui dansent pour illuminer l'obscurité.",
+            "Harmonie est perdue. Elle voit des yeux fuchsia qui la fixent. Elle a peur."
+        ]
+        
+    },
+
+    "ville": {
+        "rouge": [
+            "Harmonie, la tête dans les étoiles, revient à elle en entendant un coup de claxon d'une voiture de course rouge vif.",
+            "Harmonie trouve un grand sac à main. En regardant dedans, elle tombe sur un rouge à lèvre d'une couleur époustouflante..",
+            "Harmonie sent une odeur de fumée ressemblant à celle des grillades. En voyant des flammes d'un rouge intense, elle comprend que c'est un incendie.",
+            "Harmonie entend des applaudissements au loin. En se rapprochant, elle voit un monsieur couper un ruban d'un rouge étincelant.",
+            "Harmonie se promène le long d'un trottoir. La nuit tombe quand elle entre dans un parc illuminé de lampions rouges clair.",
+            "Harmonie bouscule une table et renverse du vin, la nappe est marquée de rouge par la tache qu'elle vient de faire.",
+            "Un aimant rouge fluorescent se colle aux souliers d'harmonie et elle atire touts les métaux jonchant le sol.",
+            "Harmonie a le ventre vide, elle rêve de pouvoir manger une glace aux fruits rouges.",
+            "Harmonie a soif, elle trouve la boisson rouge sang que sa grand-mère lui a fait découvrir; le jus de canneberge",
+            "Harmonie croise une homme à l'allure étrange, celui-ci est revenu de la plage et a attrapé un gros coup de soleil rouge pétant",
+            "Un aimant rouge fluorescent se colle aux souliers d'harmonie et elle atire touts les métaux jonchant le sol."
+
+
+        ],
+        "vert": [
+            "Harmonie croise un chat qui se tient en hauteur sur un murêt, la fixant de ses profonds yeux verts.",
+            "Harmonie voit un homme jeter sa bouteille en pet sur le sol. Quel malotru! Elle la ramsse et lui la jette dessus.",
+            "Le vent emporte la casquette d'une femme qui roule à pleine vitesse dans la rue.",
+            "Harmonie rencontre un vieux sage au manteau vert qui lui raconte sa vie et lui conseille de savourer chaque instant de celle-ci.",
+            "Harmonie se baisse pour refaire ses lacets et trouve un stylo bille par terre. Elle le prend afin de pouvoir écrire ses récits.",
+            "Et Harmonie se promène dans un parc au coeur de la ville pour se ressourcer.",
+            "À la cantine, les enfants pâles et assoiffés cherchent désespérément de l'eau. Harmonie, leur apporte des bouteilles vertes pour les aider.",
+            "Harmonie passe devant un magasin exposant des cannes à pêche vert pâle.",
+            "Harmonie trouve une paire de chaussure vertes flambant neuves dans une décharge.",
+            "Harmonie croise un vieux monsieur malade, sa peau tire sur les verts.",
+            "Harmonie voit un arbre au bord de la route. Ses feuilles sont d'un vert émeraude remarquable."
+        ],
+        "bleu": [
+            "Harmonie passe au dessus d'une bouche d'égout et sent  quelque chose lui aggriper le pied. Elle aperçoit deux grands yeux bleus qui la fixaient.",
+            "Harmonie remarque qu'il n'y a plus de meringue car les oiseaux ne pondent plus d'œufs. Elle installe des nichoirs bleus pour les aider.",
+            "Harmonie se promène au bord de la rivière. Il pleut et l'eau bleu terne est déchaînée.",
+            "Harmonie trébuche sur le trottoir, en se relevant elle remarque que son genou est tout plein de bleus.",
+            "En passant devant une boutique de fleurs, Harmonie porte directement son regard sur de magnifiques penseés bleu satin.",
+            "En sortant de la place de jeu, le ciel s'assombrit et son bleu est parti pour laisser place aux nuages.",
+            "Haremonie est attirée par une poubelle. Sa couleur est tellement vive qu'elle peine à garder les yeux ouverts.",
+            "Harmonie veut traverser la route. Cependant les feux de signalisations sont étranges, ils sont bleus. Elle ne sait pas quoi faire.",
+            "Harmonie entend des sirènes au loin. Une ambulance passe à toute allure et en éclairant toute la rue avec ses feux bleus.",
+            "Harmonie passe devant une boutique de vêtements, elle veut acheter un magnifique jeans.",
+            "Et Harmonie regarde la rivière boueuse. Elle commence à la nettoyer. Ah, tout bleu. C'est mieux."
+        ],
+        "jaune": [
+            "Le ciel est gris, le soleil est caché. Harmonie se met à danser pour faire revenir le soleil. 'Oh le soleil est si jaune!",
+            "Harmonie est perdue, elle arrête un taxi jaune pour demander son chemin.",
+            "Harmonie écrit une lettre au soleil pour qu'il repointe le bout de son nez. Elle la dépose dans une boîte aux lettres jaune.",
+            "Harmonie trouve un chapeau de paille. Une personne revenant de la plage a du l'oublier.",
+            "La nuit tombe, les enseignes des magasins s'allument. Harmonie s'arrête pour les contempler.",
+            "Harmonie croise deux hommes qui repeignent un mur en jaune. Chouette, ils l'aident à accomplir sa mission.",
+            "Harmonie entend des pleurs au loin. C'est un petit poussin qui est perdu. Elle lui indique le chemin pour retrouver ses parents.",
+            "Harmonie passe devant un stand de jus de fruit. Le gentil monsieur lui offre un gros verre du jus d'orange.",
+            "Harmonie se demande où sont passées toutes les abeilles. Elle pose un gros pot de miel dans le but de les attirer.",
+            "Harmonie tomba nez à nez avec un homme aux chveux jaunes. Il ressemble à un personnage de dessin-animé.",
+            "Harmonie traverse un champs de tournesol dans un parc. Son pantalon est taché de jaune."
+        ],
+        "fuchsia": [
+            "Regarde comment les fleurs sont toutes grises. Harmonie sort son pinceau fuchsia pour les colorer. 'Oh ces tullipes sont si belles!'",
+            "Harmonie trouve une poupée toute cassée. Elle lui mit un coup de rouge à lèvre fuchsia et lui brossa les cheveux pour la raviver.",
+            "Le soleil se couche. Harmonie aperçoit des couleurs éclatantes entre les grands bâtiments.",
+            "Harmonie voit quelque chose briller à la lumière du soleil. En se rapprochant, elle trouve une paire de boucle d'oreilles.",
+            "Une personne promène son petit chien. Sa laisse colorée est rayonnante.",
+            "En passant devant un appartement, Harmonie voit des flashs de couleur fuchsia. Elle se demande ce que ces personnes regardent.",
+            "En partant du parc, elle pass à côté d'un étang. Elle voit trois poissons fuchsia. C'est la première fois qu'elle les voit.",
+            "Pour la fête des mères, Harmonie part à la chasse aux fleurs. Elle prépare un joli bouquet.",
+            "Harmonie croise un artiste de rue. Celui-ci l'aide à accomplir son but en repeignant des toiles blanches.",
+            "Dans un enclos, Harmonie trouve un lapin pas comme les autres. Il était de couleur fuchsia!",
+            "Harmonie lit le gros titre d'un journal. Ça parle d'un vol de diamant. Peut-être est-ce un coup de la panthère rose?"
+        ]
+        
+    },
+
+    "outro": {
+        "rouge": [
+            "Harmonie a réveillé les nuances du feu, le rouge éclatant des flammes dansant avec intensité. Elle range ses pinceaux et contemple sa toile.",
+            "Harmonie a illuminé les teintes du crépuscule, le rouge orangé du soleil couchant embrasant l'horizon. Elle ferme son carnet à croquis et contemple son dessin, prête à le partager avec sa famille.",
+            "Harmonie a réconforté les reflets de l'automne, le rouge vif des feuilles tourbillonnant dans la brise fraîche. Elle range ses crayons de couleur et contemple son croquis, prête à l'accrocher aux murs.",
+            "Harmonie a réveillé les couleurs de la passion, le rouge profond des roses éclosant dans le jardin. Elle range ses feutres et contemple sa composition, prête à l'accrocher aux murs.",
+            "Harmonie a révélé les ombres de la ville, le rouge sombre des briques des vieux bâtiments se fondant dans le crépuscule. Ravie de son oeuvre, elle l'emporte avec elle."
+        ],
+        "vert": [
+    
+            "Harmonie a réveillé les nuances du vert émeraude, la couleur verte luxuriante des feuilles dansant dans la brise printanière. Ravie de son dessin, elle l'arrache de son rouleau et l'expose aux murs. ",
+            "Harmonie a illuminé les teintes de la prairie, le vert éclatant de l'herbe fraîchement coupée sous le soleil. Ravie de sa toile, elle découpe son dessin et le pend au murs.",
+            "Harmonie a réconforté les reflets de la forêt, le vert profond des frondaisons formant un dôme au-dessus du sentier ombragé. Elle range ses crayons de couleur et contemple son croquis, prête à l'encadrer.",
+            "Harmonie a réveillé les couleurs de la pomme, le vert vif du fruit croquant suspendu aux branches du verger. Elle range ses crayons et contemple son dessin qu'elle suspend au murs.",
+            "Harmonie a ranimé les nuances de l'épinard, la couleur verte profonde des feuilles frisées sur le marché en plein air. Elle range ses crayons de couleur et contemple son croquis, prête à l'ajouter à sa collection de dessin.",
+            "Harmonie a révélé les ombres de la jungle, le vert sombre des lianes serpentant à travers la canopée dense. Elle ferme son carnet de dessin et contemple son croquis, prête à l'incorporer dans sa collection d'illustration.",
+            "Harmonie a réconforté les teintes de la nature, la couleur verte apaisante des plantes d'intérieur embellissant son salon. Elle range ses pinceaux et contemple sa création qu'elle accroche aux murs. ",
+            "Harmonie a ressuscité les nuances des oliviers, le vert sage des fruits mûrs suspendus aux branches torsadées. Elle range ses pinceaux et contemple sa toile qu'elle emporte sous son bras.",
+            "Harmonie a ranimé les nuances de l'avocat, le vert crémeux de la chair du fruit écrasé sur une tartine grillée. Elle range ses crayons de couleur et contemple son croquis, prête à l'ajouter à sa collection de dessins.",
+            "Harmonie a réconforté les teintes du printemps, la couleur verte éclatante des bourgeons éclosant sur les branches des arbres fruitiers. Elle range ses feutre et contemple sa création, prête à l'offrir en cadeau"
+        ],
+        "bleu": [       
+            "Harmonie a restauré les couleurs du monde, le torrent s'appaisant laissant place au murmure des vagues de l'océan. Elle pose ses feutres et s'empare de son oeuvre pour la suspendre aux murs. ",
+            "Harmonie a redonné vie aux nuances du ciel, les nuages se dissipant pour révéler la douce teinte du bleu azur. Elle replie son pinceau et contemple son tableau, prêt à l'exposer dans la galerie",
+            "Harmonie a ravivé les reflets du lac, les ondes calmes révélant la profondeur du bleu turquoise. Elle range ses crayons et contemple son croquis, prête à le partager avec le monde.",
+            "Harmonie a réveillé les teintes de l'aurore, le bleu indigo du crépuscule s'éclaircissant lentement. Elle dépose ses outils et admire sa capture, prête à l'encadrer dans sa collection.",
+            "Harmonie a illuminé les traits de la ville endormie, le bleu électrique des enseignes scintillant dans la nuit. Elle referme son carnet de croquis et observe son dessin, prête à le présenter lors de son exposition.",
+            "Harmonie a révélé les teintes du cristal, le bleu profond des glaciers brisant la lumière du soleil. Elle range ses outils et s'empare de son dessin.",
+            "Harmonie a ravivé les éclats de la ville, le bleu électrique des néons se reflétant sur les trottoirs mouillés par la pluie. Elle plie son chevalet et contemple son tableau, l'emportant sous son bras."
+        ],
+        "jaune": [
+            "Harmonie a réveillé les nuances du soleil, le jaune éclatant des rayons perçant à travers les nuages. Elle range ses pinceaux et contemple sa toile, prête à l'exposer sur un mur.",
+            "Harmonie a réveillé les couleurs de la nature, le jaune pâle des fleurs sauvages éclosant dans les prés. Satisfaite de l'oeuvre qu'elle vient de faire, elle s'en empare et repart avec.",
+            "Harmonie a ranimé les nuances du désert, le jaune ocre du sable s'étendant à perte de vue. Satisfaite d'avoir raviver la joie dans le monde. Elle range ses feutre et s'empare du dessin qu'elle expose joyeusement.",
+            "Harmonie a révélé les ombres de la ville, le jaune pâle des lumières de la rue se reflétant sur les pavés mouillés. Elle ferme son carnet de dessin et contemple son croquis, fière de son illustration, elle l'expose aux murs.",
+            "Harmonie a réconforté les teintes du bonheur, le jaune radieux des sourires illuminant le visage de ses amis. Ravie d'avoir réparé sa bétise, elle s'empare de son dessin et le pend au murs.",
+            "Harmonie a révélé les teintes du tournesol, le jaune éblouissant des pétales tournant vers le soleil. Elle range ses pinceaux et contemple sa toile, prête à l'exposer au murs.",
+            "Harmonie a réconforté les reflets du maïs, le jaune doré des épis ondulant dans le vent d'été. Ravie de ses habiles coups de crayons, elle s'empare de son oeuvre et la pend au murs.",
+            "Harmonie a ravivé les éclats du citron, le jaune lumineux du fruit tranchant dans l'air frais. Elle plie son chevalet et contemple son tableau, arrache la feuille et repart avec sous le bras."
+
+        ],
+        "fuchsia": [
+            "Harmonie a réconforté les reflets de la rose, la couleur rose pâle des pétales caressés par la brise printanière. Elle range ses crayons de couleur et contemple son croquis, prête à l'accrocher dans sa chambre.",
+            "Harmonie a révélé les ombres du crépuscule, le rose délicat des nuages se teintant de la lueur du soir dans le ciel. Elle ferme son carnet de dessin et contemple son croquis, prête à l'incorporer dans sa collection d'illustration qu'elle suspend aux murs.",
+            "Harmonie a ressuscité les nuances de la rhubarbe, le rose vif des tiges croquantes émergeant du sol fertile de son potager. Elle range ses pinceaux et contemple sa toile, prête à l'exposer dans sa chambre.",
+            "Harmonie a éclairé les teintes de la betterave, le rose profond de la chair sucrée du légume coupé en tranches fines dans sa salade estivale. Elle range ses feutres de couleurs et contemple son oeuvre qu'elle suspend aux murs.",
+            "Harmonie a enveloppé les reflets de l'oignon, le rose pâle des anneaux délicats de l'oignon rouge tranché avec précision sur la planche à découper. Elle range ses crayons de couleur et contemple son croquis, prête à l'accrocher aux murs.",
+            "Harmonie a ranimé les éclats de la framboise, le rose éclatant des baies juteuses étalées sur la tarte fraîchement cuite. Elle plie son chevalet et contemple son tableau, prête à le présenter.",
+            "Harmonie a ranimé les éclats du rubis, la couleur fuchsia profonde des cristaux étincelants de la parure qu'elle portait pour une soirée spéciale. Ravie de son illustration, elle l'emporte sous le bras pour l'afficher aux murs. "
+
+        ]
     }
+
 }

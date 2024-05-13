@@ -7,6 +7,7 @@ let started = false;
 let story = {};
 let serialPort;
 let serialReader;
+let talking = false;
 
 function start() {
 
@@ -18,13 +19,6 @@ function start() {
 	paragraph = document.getElementById("paragraph");
 
 	loadStory();
-
-	// startTCP();
-
-	text = "Et Harmonie chercha sa prochaine couleur pour recolorier le monde."
-	raconter(text, true);
-
-	started = true;
 
 }
 
@@ -52,7 +46,7 @@ function parseSerialInput(newText) {
 		phrases.forEach((phrase) => {
 			// if the phrase starts with "color"
 			if (phrase.startsWith("color")) {
-				console.log(phrase);
+				// console.log(phrase);
 				let color = phrase.split("\t")[1];
 				action(color);
 			}
@@ -102,67 +96,22 @@ async function startSerial() {
 }
 
 
-// async function startSerialOld() {
-	
-// 	try {
-
-// 		let validatedPorts = await navigator.serial.getPorts();
-
-// 		if (validatedPorts.length == 0) {
-
-// 			navigator.serial.requestPort().then((selectedPort) => {
-// 				serialPort = selectedPort;
-// 				console.log("validated serial port: " + serialPort);
-// 			});
-
-// 		} else {
-
-// 			serialPort = validatedPorts[0];
-
-// 		}
-
-// 		if (serialPort) {
-// 			serialPort.onconnect = serialConnected();
-// 			serialPort.open({ baudRate: 9600 });
-// 		}
-
-// 	} catch(e) {
-
-// 		console.error(e);
-
-// 	}
-
-// }
-
-// async function serialConnected() {
-
-// 	console.log(serialPort);
-// 	console.log("serialConnected()");
-// 	console.log(serialPort.readable);
-// 	reader = serialPort.readable.getReader();
-// 	console.log("serial connected");
-
-// 	// Listen to data coming from the serial device.
-// 	while (true) {
-// 		const { value, done } = await reader.read();
-// 		if (done) {
-// 			// Allow the serial port to be closed later.
-// 			reader.releaseLock();
-// 			break;
-// 		}
-// 		// value is a Uint8Array.
-// 		console.log(value);
-// 	}
-
-// }
-
-
-function loadStory() {
+async function loadStory() {
 
 	fetch('./story.json')
 		.then(response => response.json())
-		.then(data => story = data)
+		.then(data => {
+
+			story = data;
+
+			text = "prenez un feutre pour démarrer l'histoire";
+			raconter(text, true);
+		
+			started = true;
+
+		})
 		.catch(error => console.log(error));
+
 
 }
 
@@ -198,13 +147,16 @@ function typeText(newText, append=false) {
 // use Chrome Text-To-Speech to read the text
 function speak(newText, newSubtext = "") {
 
+	talking = true;
 	text = newText;
 	subtext = newSubtext;
 
 	let utterance = new SpeechSynthesisUtterance(text);
 	utterance.lang = "fr-FR";
 	utterance.addEventListener("end", (event) => {
-		speakSupplement()
+		// speakSupplement()
+		talkingDone();
+		talking = false;
 	  });
 	speechSynthesis.speak(utterance);
 
@@ -241,7 +193,7 @@ document.addEventListener("keypress", (event) => {
 		action("bleu");
 	} else if (event.key === "m") {
 		// if 'm' is pressed, magenta color
-		action("magenta");
+		action("fuchsia");
 	} else if (event.key === "j") {
 		// if 'y' is pressed, yellow color
 		action("jaune");
