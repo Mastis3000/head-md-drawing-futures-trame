@@ -40,57 +40,97 @@ async function checkForValidatedSerial() {
 
 
 async function startSerial() {
+    if ('serial' in navigator) {
+        try {
+            let validatedPorts = await navigator.serial.getPorts();
+            let port;
+            if (validatedPorts.length > 0) {
+                port = validatedPorts[0];
+            } else {
+                port = await navigator.serial.requestPort();
+            }
+            await port.open({ baudRate: 9600 });
+            const reader = port.readable.getReader();
+            
+            try {
+                while (true) {  // Continuously read from the port
+                    const { value, done } = await reader.read(); // read() returns a promise that resolves with an object
+                    if (done) {
+                        // The readable stream has been closed or reader.releaseLock() called.
+                        console.log('Stream closed');
+                        break;
+                    }
+                    if (value) {
+                        console.log('Received', new TextDecoder().decode(value)); // Assuming text data, adjust decoding as necessary
+                    }
+                }
+            } catch (error) {
+                console.error('Error reading from serial port', error);
+            } finally {
+                reader.releaseLock();
+            }
+        } catch (err) {
+            console.error('There was an error opening the serial port:', err);
+        }
+    } else {
+        console.error('The Web serial API doesn\'t seem to be enabled in your browser.');
+    }
+}
+
+
+// async function startSerialOld() {
 	
-	try {
+// 	try {
 
-		let validatedPorts = await navigator.serial.getPorts();
+// 		let validatedPorts = await navigator.serial.getPorts();
 
-		if (validatedPorts.length == 0) {
+// 		if (validatedPorts.length == 0) {
 
-			navigator.serial.requestPort().then((selectedPort) => {
-				serialPort = selectedPort;
-				console.log("validated serial port: " + serialPort);
-			});
+// 			navigator.serial.requestPort().then((selectedPort) => {
+// 				serialPort = selectedPort;
+// 				console.log("validated serial port: " + serialPort);
+// 			});
 
-		} else {
+// 		} else {
 
-			serialPort = validatedPorts[0];
-			console.log(serialPort);
+// 			serialPort = validatedPorts[0];
 
-		}
+// 		}
 
-		if (serialPort) {
-			serialPort.onconnect = serialConnected();
-			serialPort.open({ baudRate: 9600 });
-		}
+// 		if (serialPort) {
+// 			serialPort.onconnect = serialConnected();
+// 			serialPort.open({ baudRate: 9600 });
+// 		}
 
-	} catch(e) {
+// 	} catch(e) {
 
-		console.error(e);
+// 		console.error(e);
 
-	}
+// 	}
 
-}
+// }
 
+// async function serialConnected() {
 
-async function serialConnected() {
+// 	console.log(serialPort);
+// 	console.log("serialConnected()");
+// 	console.log(serialPort.readable);
+// 	reader = serialPort.readable.getReader();
+// 	console.log("serial connected");
 
-	reader = serialPort.readable.getReader();
-	console.log("serial connected");
+// 	// Listen to data coming from the serial device.
+// 	while (true) {
+// 		const { value, done } = await reader.read();
+// 		if (done) {
+// 			// Allow the serial port to be closed later.
+// 			reader.releaseLock();
+// 			break;
+// 		}
+// 		// value is a Uint8Array.
+// 		console.log(value);
+// 	}
 
-	// Listen to data coming from the serial device.
-	while (true) {
-		const { value, done } = await reader.read();
-		if (done) {
-			// Allow the serial port to be closed later.
-			reader.releaseLock();
-			break;
-		}
-		// value is a Uint8Array.
-		console.log(value);
-	}
-
-}
+// }
 
 
 function loadStory() {
