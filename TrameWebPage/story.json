@@ -1,0 +1,28 @@
+{
+    "title": "Trame Tram Trame",
+    "actions": {
+        "rouge": [
+            "Et Harmonie saisit les graines d'une pomme pour faire repousser toutes les arbres.",
+            "Et Harmonie mange une tomate pour se rappeler de la douceur de la vie.",
+            "Et Harmonie se couvre avec son manteau rouge pour se protéger du froid. Tous les animaux grisâtres la regarde: 'Quelle couleur éclatante!'"
+        ],
+        "vert": [
+            "Et Harmonie se couche dans l'herbe pour se reposer.",
+            "Et Harmonie se promène dans la forêt pour se ressourcer.",
+            "Et Harmonie plante une salade nourir les animaux des alentours."
+        ],
+        "bleu": [
+            "Et Harmonie regarde la rivière boueuse. Elle se met à pleurer. 'Oh la rivière est si sale!' Elle saute d'un bond dans l'eau pour la nettoyer. Ah, tout bleu. C'est mieux.",
+            "Et Harmonie regarde le ciel caché par les nuages. Elle souffle très fort pour les faire partir. 'Oh le ciel est si bleu!' crient tous les animaux."
+        ],
+        "jaune": [
+            "Un ciel gris, le soleil est caché. Harmonie se met à danser pour faire revenir le soleil. 'Oh le soleil est si jaune!'",
+            "Et Harmonie se met à chanter pour faire pousser les jacinthes. 'Oh ces jolies fleurs sont si jaunes!'",
+            "Et Harmonie se met à rire pour faire rire les animaux. 'Mais regardez comment vos rires sont jaunes!'"
+        ],
+        "magenta": [
+            "Regarde comment les fleurs sont toutes grises. Harmonie sort son pinceau magenta pour les colorer. 'Oh ces coquelourdes sont si belles!'"
+        ]
+        
+    }
+}
