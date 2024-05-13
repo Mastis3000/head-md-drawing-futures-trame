@@ -1,7 +1,7 @@
 /* create variable */
 :root {
     --margin: 0.5em;
-    --fontSize: 6vh;
+    --fontSize: 8vh;
 }
 
 body {
@@ -9,9 +9,11 @@ body {
     font-family: Baskerville;
     margin: 0;
     padding: 0;
+    cursor:none;
 }
 
 p {
+    cursor: none;
     color: #000000;
     font-size: var(--fontSize);
     text-align: left;

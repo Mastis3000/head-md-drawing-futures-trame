@@ -6,9 +6,12 @@ function action(color) {
     let phrases = story.actions[color];
 
     // choose one at random
-    let phrase = phrases[Math.floor(Math.random() * phrases.length)];
-
-    raconter(phrase);
+    try {
+        let phrase = phrases[Math.floor(Math.random() * phrases.length)];
+        raconter(phrase);
+    } catch(e) {
+        console.log("error", e);
+    }
 
     // sendMessage(color);
 

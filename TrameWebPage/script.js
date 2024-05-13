@@ -38,6 +38,29 @@ async function checkForValidatedSerial() {
 
 }
 
+let serialInput = "";
+
+
+function parseSerialInput(newText) {
+
+	serialInput += newText;
+
+	// if the input contains a newline character, we have a full phrase
+	if (serialInput.includes("\n")) {
+		let phrases = serialInput.split("\n");
+		serialInput = phrases.pop();
+		phrases.forEach((phrase) => {
+			// if the phrase starts with "color"
+			if (phrase.startsWith("color")) {
+				console.log(phrase);
+				let color = phrase.split("\t")[1];
+				action(color);
+			}
+		});
+	}
+
+}
+
 
 async function startSerial() {
     if ('serial' in navigator) {
@@ -46,7 +69,7 @@ async function startSerial() {
             let port;
             if (validatedPorts.length > 0) {
                 port = validatedPorts[0];
-            } else {
+            } else { 
                 port = await navigator.serial.requestPort();
             }
             await port.open({ baudRate: 9600 });
@@ -61,7 +84,8 @@ async function startSerial() {
                         break;
                     }
                     if (value) {
-                        console.log('Received', new TextDecoder().decode(value)); // Assuming text data, adjust decoding as necessary
+						parseSerialInput(new TextDecoder().decode(value));
+                        //console.log(new TextDecoder().decode(value)); // Assuming text data, adjust decoding as necessary
                     }
                 }
             } catch (error) {
