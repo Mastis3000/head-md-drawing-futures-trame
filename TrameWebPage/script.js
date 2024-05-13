@@ -13,6 +13,8 @@ function start() {
 
     loadStory();
 
+    // startTCP();
+
     text = "Et Harmonie chercha sa prochaine couleur pour recolorier le monde."
     raconter(text, true);
 
@@ -112,6 +114,40 @@ document.addEventListener("keypress", (event) => {
     }
 
 });
+
+
+var connection;
+
+function startTCP() {
+
+    connection = new WebSocket('ws://10.0.0.1:7003');
+
+    connection.onopen = function () {
+        console.log("Connected to Max");
+    }
+
+}
+
+
+function sendMessage(message) {
+
+    try {
+        connection.sendTCP(message);
+    } catch(e) {
+        console.error(e);
+    }
+}
+
+
+function onTCPConnected() {
+    console.log("connected to Max");
+}
+
+function sendTCP() {
+
+
+
+}
 
 
 document.addEventListener("click", () => {

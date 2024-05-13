@@ -10,6 +10,8 @@ function action(color) {
 
     raconter(phrase);
 
+    // sendMessage(color);
+
 }
 
 
