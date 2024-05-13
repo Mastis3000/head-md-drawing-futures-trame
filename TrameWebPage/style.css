@@ -1,0 +1,22 @@
+/* create variable */
+:root {
+    --margin: 0.5em;
+    --fontSize: 6vh;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Baskerville;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #000000;
+    font-size: var(--fontSize);
+    text-align: left;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+}

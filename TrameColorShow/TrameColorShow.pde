@@ -19,9 +19,9 @@ void setup() {
 
 void setupSerial() {
 
-  //String portName = Serial.list()[1];
-  String portName = "/dev/cu.usbmodem8301";
-  //print(Serial.list());
+  print(Serial.list());
+  String portName = Serial.list()[1];
+  //String portName = "/dev/cu.usbmodem8301";
   myPort = new Serial(this, portName, 9600);
 
   // Throw out the first reading, in case we started reading
